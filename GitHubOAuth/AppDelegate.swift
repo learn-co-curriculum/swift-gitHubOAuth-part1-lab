@@ -19,7 +19,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
-    // SOLUTION: handle url
     func application(app: UIApplication, openURL url: NSURL, options: [String : AnyObject]) -> Bool {
         
         if let sourceAppKey = options["UIApplicationOpenURLOptionsSourceApplicationKey"] {
